@@ -115,3 +115,6 @@ Throughout this project, I gained hands-on experience with several essential too
 
 #### Deliverable 1: Introduction Slides
  You can find the introduction slides of this project [here](Zamanidoost_final_Presentation.pdf)
+
+#### Deliverable 2: Jupyter Notebooks
+You can find jupyter notebooks of this project at my [github repository](https://github.com/Amirzamani4096/Zamanidoost_project)
