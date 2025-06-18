@@ -62,3 +62,14 @@ The main objective of this project is to accurately detect brain tumors in MRI s
   - **Training RPN**: Tesla V100 GPU (via terminal-based access)
   - **Inference and Evaluation**: CPU
 - **CUDA**: Used during RPN training for GPU acceleration  
+
+### Data
+
+This project uses publicly available datasets containing 2D T1-weighted contrast-enhanced MRI images of brain tumors along with their ground-truth labels. The data is sufficient in both quantity and quality to allow for effective training and fine-tuning of object detection models such as Faster R-CNN.
+
+1. [Brain Tumor Segmentation @ Kaggle](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation)  
+   - **Original Source & Credit**: [Jun Cheng](https://github.com/chengjun583/brainTumorRetrieval)  
+   - **Description**: This dataset contains 3064 T1-weighted contrast-enhanced brain MRI images in `.jpg` format, with manually labeled tumor regions provided via ground-truth masks.  
+   - **Use Case**: Used for training and fine-tuning the Faster R-CNN model.
+
+All images were preprocessed and annotated for object detection tasks by converting segmentation masks into bounding box labels.
