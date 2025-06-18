@@ -55,7 +55,7 @@ The main objective of this project is to accurately detect brain tumors in MRI s
 - **Programming Language**: Python 3.x  
 - **Deep Learning Framework**: PyTorch  
 - **Computer Vision Libraries**: OpenCV, torchvision  
-- **Annotation Tool**: LabelImg, nibabel 
+- **Annotation Tool**: LabelImg, Nibabel 
 - **Visualization**: Matplotlib, Seaborn  
 - **Notebook Environment**: Jupyter Notebook  
 - **Hardware**:
