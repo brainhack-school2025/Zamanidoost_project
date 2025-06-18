@@ -118,3 +118,27 @@ Throughout this project, I gained hands-on experience with several essential too
 
 #### Deliverable 2: Jupyter Notebooks
 You can find jupyter notebooks of this project at my [github repository](https://github.com/Amirzamani4096/Zamanidoost_project)
+
+#### Deliverable 3: Instructions
+
+1. **Data Acquisition & Tumor Size Analysis**  
+   Refer to [`Data_Acquisition.ipynb`](./Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
+
+2. **Preparing Data for Training and Testing**  
+   Use [`Create_Input_Data.ipynb`](./Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
+
+3. **Region Proposal Network (RPN) - Training**  
+   Train the RPN model using [`RPN_Training_Model.ipynb`](./RPN_Training_Model.ipynb), which extracts candidate regions.
+
+4. **RPN Inference and Evaluation**  
+   Use [`RPN_Test_Results.ipynb`](./RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
+
+5. **FPR Dataset Creation**  
+   Generate patches for false positive reduction training using [`patches.ipynb`](./patches.ipynb).
+
+6. **False Positive Reduction (FPR) Model - Training**  
+   Train the FPR classification model using [`FPR_Training_Model.ipynb`](./FPR_Training_Model.ipynb) to refine RPN outputs.
+
+7. **Final Inference and Results**  
+   Run [`RPN_FPR_Test_Results.ipynb`](./RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
+
