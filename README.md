@@ -137,7 +137,7 @@ You can find jupyter notebooks of this project at my [github repository](https:/
    Generate patches for false positive reduction training using [`patches.ipynb`](./patches.ipynb).
 
 6. **False Positive Reduction (FPR) Model - Training**  
-   Train the FPR classification model using [`FPR_Training_Model.ipynb`](./FPR_Training_Model.ipynb) to refine RPN outputs.
+   Train the FPR classification model using [`FPR_Training_model.ipynb`](./FPR_Training_model.ipynb) to refine RPN outputs.
 
 7. **Final Inference and Results**  
    Run [`RPN_FPR_Test_Results.ipynb`](./RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
