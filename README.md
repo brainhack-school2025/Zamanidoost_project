@@ -19,7 +19,8 @@ tags: [MRI, brain tumor detection, Faster R-CNN, false positive reduction]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://psy6983.brainhackmtl.org/project)."
+summary: "
+This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. The detection system includes a Region Proposal Network (RPN) for generating candidate tumor regions, followed by a False Positive Reduction (FPR) module based on a convolutional neural network to refine the predictions. The model is trained and evaluated on annotated MRI data and achieves improved precision and sensitivity across various IoU thresholds. The final results are visualized with bounding boxes and evaluated using metrics such as F1-score and FROC curves."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
