@@ -19,7 +19,7 @@ tags: [mri,segmentation,brain_tumor,foundation_model]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. The detection system includes a Region Proposal Network (RPN) for generating candidate tumor regions, followed by a False Positive Reduction (FPR) module based on a convolutional neural network to refine the predictions."
+summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
