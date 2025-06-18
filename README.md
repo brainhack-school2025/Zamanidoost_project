@@ -37,3 +37,120 @@ I'm Yadollah (Amir) Zamanidoost, a PhD student in Computer Engineering at Polyte
 
 ---
 # Brian Tumor Detection in MRI Using Faster R-CNN
+
+
+## Project definition
+
+The goal of this project is to develop an automated and accurate brain tumor detection system using deep learning techniques. Leveraging the power of Faster R-CNN, the model detects tumors in MRI images by learning spatial features and distinguishing abnormal regions from healthy tissue. This tool is designed to assist radiologists by reducing diagnostic time and minimizing false positives.
+
+### Background
+Brain tumors are among the most challenging medical conditions to detect and treat. Accurate identification of tumor regions in MRI scans is crucial for diagnosis, surgical planning, and treatment monitoring. Traditional methods rely heavily on expert interpretation, which can be time-consuming and prone to inter-observer variability. Deep learning approaches, especially object detection frameworks like Faster R-CNN, offer a promising alternative by automating tumor localization and classification. In this project, we enhance the classical Faster R-CNN pipeline with a false positive reduction (FPR) stage to improve robustness and reliability.
+![Framework Overview](overall_framework.png)
+
+### Objective
+
+The main objective of this project is to accurately detect brain tumors in MRI scans using the Faster R-CNN object detection framework. By leveraging deep convolutional neural networks, this project aims to enhance early diagnosis and assist medical professionals in identifying tumor regions with high precision.
+
+### Tools
+
+- **Programming Language**: Python 3.x  
+- **Deep Learning Framework**: PyTorch  
+- **Computer Vision Libraries**: OpenCV, torchvision  
+- **Annotation Tool**: LabelImg, Nibabel 
+- **Visualization**: Matplotlib, Seaborn  
+- **Notebook Environment**: Jupyter Notebook  
+- **Hardware**:
+  - **Training RPN**: Tesla V100 GPU (via terminal-based access)
+  - **Inference and Evaluation**: CPU
+- **CUDA**: Used during RPN training for GPU acceleration  
+
+### Data
+
+This project uses publicly available datasets containing 2D T1-weighted contrast-enhanced MRI images of brain tumors along with their ground-truth labels. The data is sufficient in both quantity and quality to allow for effective training and fine-tuning of object detection models such as Faster R-CNN.
+
+1. [Brain Tumor Segmentation @ Kaggle](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation)  
+   - **Original Source & Credit**: [Figshare](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)  
+   - **Description**: This dataset contains 3064 T1-weighted contrast-enhanced brain MRI images in `.png` format, with manually labeled tumor regions provided via ground-truth masks.  
+   - **Use Case**: Used for training and fine-tuning the Faster R-CNN model.
+
+All images were preprocessed and annotated for object detection tasks by converting segmentation masks into bounding box labels.
+
+### Deliverables
+
+At the end of this project, the following materials will be available:
+
+-  A completed and well-documented `README.md`.
+-  Several Jupyter Notebooks.
+     - For training the RPN and FPR models using GPU acceleration (Tesla V100).
+     - For inference, post-processing, and evaluation (executed on CPU).
+- Performance metrics including precision, recall, F1-score, and FROC curves.
+- The slide presentation introducing the problem, dataset, model architecture, and key findings.
+
+## Results
+
+### Progress Overview
+
+The Faster R-CNN model demonstrates strong localization capability in detecting brain tumors from MRI scans, even with limited annotated data for training. Our custom RPN training and false positive reduction significantly improved precision without sacrificing recall.
+
+### Tools I Learned During This Project
+
+Throughout this project, I gained hands-on experience with several essential tools and libraries in deep learning and medical image analysis, including:
+
+- **PyTorch** – for building and training the Faster R-CNN and custom RPN models
+
+- **Torchvision** – for using pretrained VGG16 and manipulating datasets
+
+- **OpenCV** – for image processing and visualization tasks
+
+- **Matplotlib & Seaborn** – for plotting training metrics and visual results
+
+- **scikit-learn** – for computing classification metrics like precision, recall, and F1-score
+
+- **Git & GitHub** – for version control and project collaboration
+
+- **Markdown** – for documenting the project and creating a structured README
+
+- **Jupyter Notebooks** – for training, evaluation, and presenting visual results step-by-step
+
+### Results
+
+#### Deliverable 1: Introduction Slides
+ You can find the introduction slides of this project [here](Zamanidoost_final_Presentation.pdf)
+
+#### Deliverable 2: Jupyter Notebooks
+You can find jupyter notebooks of this project at my [github repository](https://github.com/Amirzamani4096/Zamanidoost_project)
+
+#### Deliverable 3: Instructions
+
+1. **Data Acquisition & Tumor Size Analysis**  
+   Refer to [`Data_Acquisition.ipynb`](./Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
+
+2. **Preparing Data for Training and Testing**  
+   Use [`Create_Input_Data.ipynb`](./Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
+
+3. **Region Proposal Network (RPN) - Training**  
+   Train the RPN model using [`RPN_Training_Model.ipynb`](./RPN_Training_Model.ipynb), which extracts candidate regions.
+
+4. **RPN Inference and Evaluation**  
+   Use [`RPN_Test_Results.ipynb`](./RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
+
+5. **FPR Dataset Creation**  
+   Generate patches for false positive reduction training using [`patches.ipynb`](./patches.ipynb).
+
+6. **False Positive Reduction (FPR) Model - Training**  
+   Train the FPR classification model using [`FPR_Training_model.ipynb`](./FPR_Training_model.ipynb) to refine RPN outputs.
+
+7. **Final Inference and Results**  
+   Run [`RPN_FPR_Test_Results.ipynb`](./RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
+
+#### Deliverable 4: Results
+
+The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
+![Results](Results.png)
+
+## Conclusion and acknowledgement
+
+This project presents a two-stage deep learning pipeline for accurate brain tumor detection in MRI images, combining the Faster R-CNN architecture with a False Positive Reduction (FPR) model. Through fine-tuning and evaluation on open-access datasets, the system achieves promising detection performance, with enhanced precision and reduced false positives.
+
+Many thanks to the BrainHack School Professor, TA, instructors, and fellow participants for their support, feedback, and inspiration throughout this project.
+
