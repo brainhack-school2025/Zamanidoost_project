@@ -69,7 +69,7 @@ This project uses publicly available datasets containing 2D T1-weighted contrast
 
 1. [Brain Tumor Segmentation @ Kaggle](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation)  
    - **Original Source & Credit**: [Figshare](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)  
-   - **Description**: This dataset contains 3064 T1-weighted contrast-enhanced brain MRI images in `.jpg` format, with manually labeled tumor regions provided via ground-truth masks.  
+   - **Description**: This dataset contains 3064 T1-weighted contrast-enhanced brain MRI images in `.png` format, with manually labeled tumor regions provided via ground-truth masks.  
    - **Use Case**: Used for training and fine-tuning the Faster R-CNN model.
 
 All images were preprocessed and annotated for object detection tasks by converting segmentation masks into bounding box labels.
