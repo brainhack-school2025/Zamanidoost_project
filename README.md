@@ -113,5 +113,5 @@ Throughout this project, I gained hands-on experience with several essential too
 
 ### Results
 
-#### Deliverable 1: Introduction Report
- ![here](Zamanidoost_final_Presentation.pdf)
+#### Deliverable 1: Introduction Slides
+ You can find the introduction slides of this project ![here](Zamanidoost_final_Presentation.pdf)
