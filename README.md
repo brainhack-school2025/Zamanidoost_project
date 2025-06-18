@@ -50,3 +50,15 @@ Brain tumors are among the most challenging medical conditions to detect and tre
 
 The main objective of this project is to accurately detect brain tumors in MRI scans using the Faster R-CNN object detection framework. By leveraging deep convolutional neural networks, this project aims to enhance early diagnosis and assist medical professionals in identifying tumor regions with high precision.
 
+### Tools
+
+- **Programming Language**: Python 3.x  
+- **Deep Learning Framework**: PyTorch  
+- **Computer Vision Libraries**: OpenCV, torchvision  
+- **Annotation Tool**: LabelImg, nibabel 
+- **Visualization**: Matplotlib, Seaborn  
+- **Notebook Environment**: Jupyter Notebook  
+- **Hardware**:
+  - **Training RPN**: Tesla V100 GPU (via terminal-based access)
+  - **Inference and Evaluation**: CPU
+- **CUDA**: Used during RPN training for GPU acceleration  
