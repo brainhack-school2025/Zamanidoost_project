@@ -38,6 +38,7 @@ I'm Yadollah (Amir) Zamanidoost, a PhD student in Computer Engineering at Polyte
 ---
 # Brian Tumor Detection in MRI Using Faster R-CNN
 
+
 ## Project definition
 
 The goal of this project is to develop an automated and accurate brain tumor detection system using deep learning techniques. Leveraging the power of Faster R-CNN, the model detects tumors in MRI images by learning spatial features and distinguishing abnormal regions from healthy tissue. This tool is designed to assist radiologists by reducing diagnostic time and minimizing false positives.
@@ -152,3 +153,4 @@ The proposed two-stage detection framework—based on Faster R-CNN with a False 
 This project presents a two-stage deep learning pipeline for accurate brain tumor detection in MRI images, combining the Faster R-CNN architecture with a False Positive Reduction (FPR) model. Through fine-tuning and evaluation on open-access datasets, the system achieves promising detection performance, with enhanced precision and reduced false positives.
 
 Many thanks to the BrainHack School Professor, TA, instructors, and fellow participants for their support, feedback, and inspiration throughout this project.
+
