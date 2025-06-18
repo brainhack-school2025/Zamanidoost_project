@@ -19,7 +19,7 @@ tags: [mri,segmentation,brain_tumor,foundation_model]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project is to learn how to perform brain tumor segmentation using fine-tuning on foundation models, I followed tutorials provided by [MedSAM](https://github.com/bowang-lab/MedSAM) and perform fine-tuning on open datasets."
+summary: "This project is to learn how to perform brain tumor segmentation using fine-tuning on foundation models, I followed tutorials provided by [MedSAM] and perform fine-tuning on open datasets."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
