@@ -73,3 +73,15 @@ This project uses publicly available datasets containing 2D T1-weighted contrast
    - **Use Case**: Used for training and fine-tuning the Faster R-CNN model.
 
 All images were preprocessed and annotated for object detection tasks by converting segmentation masks into bounding box labels.
+
+### Deliverables
+
+At the end of this project, the following materials will be available:
+
+-  A completed and well-documented `README.md`.
+-  Several Jupyter Notebooks.
+  - For training the RPN and FPR model using GPU acceleration (Tesla V100).
+  - For inference, post-processing, and evaluation (executed on CPU).
+- Performance metrics including precision, recall, F1-score, and FROC curves.
+- The slide presentation introducing the problem, dataset, model architecture, and key findings.
+
