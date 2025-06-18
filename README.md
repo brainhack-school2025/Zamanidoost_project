@@ -85,8 +85,8 @@ At the end of this project, the following materials will be available:
 - Performance metrics including precision, recall, F1-score, and FROC curves.
 - The slide presentation introducing the problem, dataset, model architecture, and key findings.
 
-### Results
+## Results
 
-#### Progress Overview
+### Progress Overview
 
 The Faster R-CNN model demonstrates strong localization capability in detecting brain tumors from MRI scans, even with limited annotated data for training. Our custom RPN training and false positive reduction significantly improved precision without sacrificing recall.
