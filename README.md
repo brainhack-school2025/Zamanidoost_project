@@ -1,14 +1,14 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2025-06-18" # Date you first upload your project.
+date: "2023-06-8" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "Brian Tumor Detection in MRI Using Faster R-CNN"
+title: "Brain Tumor Segmentation via SAM-based fine-tuning  on structural MRI images"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Yadollah (Amir) Zamanidoost]
+names: [Li-Xuan Alex Peng]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/Amirzamani4096/Zamanidoost_project
+github_repo: https://github.com/AlexPeng517/BHS2023_Project_SAM_MRI
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
@@ -19,13 +19,14 @@ tags: [mri,segmentation,brain_tumor,foundation_model]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture."
+summary: "This project is to learn how to perform brain tumor segmentation using fine-tuning on foundation models, I followed tutorials provided by [MedSAM](https://github.com/bowang-lab/MedSAM) and perform fine-tuning on open datasets."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: "qualitative_results.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
+---
 
 <a href="https://github.com/Amirzamani4096">
    <img src="https://avatars.githubusercontent.com/u/84202242?v=4" width="100px;" alt=""/>
