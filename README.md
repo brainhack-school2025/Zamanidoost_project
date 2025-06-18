@@ -105,8 +105,6 @@ Throughout this project, I gained hands-on experience with several essential too
 
 - **scikit-learn** – for computing classification metrics like precision, recall, and F1-score
 
-- **Google Colab with Tesla V100 GPU** – for accelerated RPN training
-
 - **Git & GitHub** – for version control and project collaboration
 
 - **Markdown** – for documenting the project and creating a structured README
