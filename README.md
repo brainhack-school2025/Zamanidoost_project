@@ -146,7 +146,9 @@ You can find jupyter notebooks of this project at my [github repository](https:/
 #### Deliverable 4: Results
 
 The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
-![Results](Results.png)
+![Results1](Result1.png)
+![Results2](Results2.png)
+![Results3](Results3.png)
 
 ## Conclusion and acknowledgement
 
