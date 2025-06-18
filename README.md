@@ -142,7 +142,7 @@ You can find jupyter notebooks of this project at my [github repository](https:/
 7. **Final Inference and Results**  
    Run [`RPN_FPR_Test_Results.ipynb`](./RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
 
-#### Results
+#### Deliverable 4: Results
 
 The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
 ![Results](Results.png)
