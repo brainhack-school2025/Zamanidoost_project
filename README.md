@@ -90,3 +90,27 @@ At the end of this project, the following materials will be available:
 ### Progress Overview
 
 The Faster R-CNN model demonstrates strong localization capability in detecting brain tumors from MRI scans, even with limited annotated data for training. Our custom RPN training and false positive reduction significantly improved precision without sacrificing recall.
+
+### Tools I Learned During This Project
+
+Throughout this project, I gained hands-on experience with several essential tools and libraries in deep learning and medical image analysis, including:
+
+- **PyTorch** – for building and training the Faster R-CNN and custom RPN models
+
+- **Torchvision** – for using pretrained VGG16 and manipulating datasets
+
+- **OpenCV** – for image processing and visualization tasks
+
+- **Matplotlib & Seaborn** – for plotting training metrics and visual results
+
+- **scikit-learn** – for computing classification metrics like precision, recall, and F1-score
+
+- **Google Colab with Tesla V100 GPU** – for accelerated RPN training
+
+- **Git & GitHub** – for version control and project collaboration
+
+- **Markdown** – for documenting the project and creating a structured README
+
+- **Jupyter Notebooks** – for training, evaluation, and presenting visual results step-by-step
+
+
