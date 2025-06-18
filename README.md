@@ -80,7 +80,7 @@ At the end of this project, the following materials will be available:
 
 -  A completed and well-documented `README.md`.
 -  Several Jupyter Notebooks.
-     - For training the RPN and FPR model using GPU acceleration (Tesla V100).
+     - For training the RPN and FPR models using GPU acceleration (Tesla V100).
      - For inference, post-processing, and evaluation (executed on CPU).
 - Performance metrics including precision, recall, F1-score, and FROC curves.
 - The slide presentation introducing the problem, dataset, model architecture, and key findings.
