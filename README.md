@@ -157,5 +157,5 @@ The proposed two-stage detection framework—based on Faster R-CNN with a False 
 
 This project presents a two-stage deep learning pipeline for accurate brain tumor detection in MRI images, combining the Faster R-CNN architecture with a False Positive Reduction (FPR) model. Through fine-tuning and evaluation on open-access datasets, the system achieves promising detection performance, with enhanced precision and reduced false positives.
 
-Many thanks to the BrainHack School Professor ([Dr. Eva Alonso Ortiz] (https://www.polymtl.ca/expertises/en/alonso-ortiz-eva)), TA (Sebastian Rios), instructors, and fellow participants for their support, feedback, and inspiration throughout this project.
+Many thanks to the BrainHack School Professor ([Dr. Eva Alonso Ortiz](https://www.polymtl.ca/expertises/en/alonso-ortiz-eva)), TA (Sebastian Rios), instructors, and fellow participants for their support, feedback, and inspiration throughout this project.
 
