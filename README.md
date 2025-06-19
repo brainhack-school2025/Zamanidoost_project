@@ -115,7 +115,7 @@ Throughout this project, I gained hands-on experience with several essential too
 ### Results
 
 #### Deliverable 1: Introduction Slides
- You can find the introduction slides of this project [here](Zamanidoost_final_Presentation.pdf)
+ You can find the introduction slides of this project [here](Slides/Zamanidoost_final_Presentation.pdf)
 
 #### Deliverable 2: Jupyter Notebooks
 You can find jupyter notebooks of this project at my [github repository](https://github.com/Amirzamani4096/Zamanidoost_project)
@@ -123,10 +123,10 @@ You can find jupyter notebooks of this project at my [github repository](https:/
 #### Deliverable 3: Instructions
 
 1. **Data Acquisition & Tumor Size Analysis**  
-   Refer to [`Data_Acquisition.ipynb`](./Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
+   Refer to [`Data_Acquisition.ipynb`](Data/Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
 
 2. **Preparing Data for Training and Testing**  
-   Use [`Create_Input_Data.ipynb`](./Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
+   Use [`Create_Input_Data.ipynb`](Data/Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
 
 3. **Region Proposal Network (RPN) - Training**  
    Train the RPN model using [`RPN_Training_Model.ipynb`](./RPN_Training_Model.ipynb), which extracts candidate regions.
