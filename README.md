@@ -123,27 +123,28 @@ You can find jupyter notebooks of this project at my [github repository](https:/
 #### Deliverable 3: Instructions
 
 1. **Install Required Libraries**
+
    Before running the notebooks, install all required libraries [`requirements.txt`](requirements.txt)
    
-2. **Data Acquisition & Tumor Size Analysis**  
+3. **Data Acquisition & Tumor Size Analysis**  
    Refer to [`Data_Acquisition.ipynb`](Data/Data_Acquisition.ipynb) for organizing the datasets and analyzing tumor size.
 
-3. **Preparing Data for Training and Testing**  
+4. **Preparing Data for Training and Testing**  
    Use [`Create_Input_Data.ipynb`](Data/Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
 
-4. **Region Proposal Network (RPN) - Training**  
+5. **Region Proposal Network (RPN) - Training**  
    Train the RPN model using [`RPN_Training_Model.ipynb`](RPN_model/RPN_Training_Model.ipynb), which extracts candidate regions.
 
-5. **RPN Inference and Evaluation**  
+6. **RPN Inference and Evaluation**  
    Use [`RPN_Test_Results.ipynb`](Results/RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
 
-6. **FPR Dataset Creation**  
+7. **FPR Dataset Creation**  
    Generate patches for false positive reduction training using [`patches.ipynb`](FPR_model/patches.ipynb).
 
-7. **False Positive Reduction (FPR) Model - Training**  
+8. **False Positive Reduction (FPR) Model - Training**  
    Train the FPR classification model using [`FPR_Training_model.ipynb`](FPR_model/FPR_Training_model.ipynb) to refine RPN outputs.
 
-8. **Final Inference and Results**  
+9. **Final Inference and Results**  
    Run [`RPN_FPR_Test_Results.ipynb`](Results/RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
 
 #### Deliverable 4: Results
