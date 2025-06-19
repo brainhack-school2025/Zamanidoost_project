@@ -129,26 +129,26 @@ You can find jupyter notebooks of this project at my [github repository](https:/
    Use [`Create_Input_Data.ipynb`](Data/Create_Input_Data.ipynb) to generate structured datasets for the RPN model.
 
 3. **Region Proposal Network (RPN) - Training**  
-   Train the RPN model using [`RPN_Training_Model.ipynb`](./RPN_Training_Model.ipynb), which extracts candidate regions.
+   Train the RPN model using [`RPN_Training_Model.ipynb`](RPN_model/RPN_Training_Model.ipynb), which extracts candidate regions.
 
 4. **RPN Inference and Evaluation**  
-   Use [`RPN_Test_Results.ipynb`](./RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
+   Use [`RPN_Test_Results.ipynb`](Results/RPN_Test_Results.ipynb) to evaluate the performance of the RPN model.
 
 5. **FPR Dataset Creation**  
-   Generate patches for false positive reduction training using [`patches.ipynb`](./patches.ipynb).
+   Generate patches for false positive reduction training using [`patches.ipynb`](FPR_model/patches.ipynb).
 
 6. **False Positive Reduction (FPR) Model - Training**  
-   Train the FPR classification model using [`FPR_Training_model.ipynb`](./FPR_Training_model.ipynb) to refine RPN outputs.
+   Train the FPR classification model using [`FPR_Training_model.ipynb`](FPR_model/FPR_Training_model.ipynb) to refine RPN outputs.
 
 7. **Final Inference and Results**  
-   Run [`RPN_FPR_Test_Results.ipynb`](./RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
+   Run [`RPN_FPR_Test_Results.ipynb`](Results/RPN_FPR_Test_Results.ipynb) to obtain and visualize the final tumor detection results after combining RPN and FPR outputs.
 
 #### Deliverable 4: Results
 
 The proposed two-stage detection framework—based on Faster R-CNN with a False Positive Reduction (FPR) module—demonstrates improved performance in detecting brain tumors from 2D MRI slices. As illustrated in the sample detection images, the FPR model significantly reduces incorrect predictions while preserving true tumor regions.
-![Results1](Result1.png)
-![Results2](Results2.png)
-![Results3](Results3.png)
+![Results1](Results/Result1.png)
+![Results2](Results/Results2.png)
+![Results3](Results/Results3.png)
 
 ## Conclusion and acknowledgement
 
