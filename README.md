@@ -19,7 +19,7 @@ tags: [MRI,Brain Tumor Detection,Faster R-CNN]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. Project reports are incorporated in the BHS (https://psy6983.brainhackmtl.org/project)."
+summary: "This project presents a deep learning-based pipeline for detecting brain tumors in MRI scans using a customized Faster R-CNN architecture. Project reports are incorporated in the BHS (https://school-brainhack.github.io/project/)."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
