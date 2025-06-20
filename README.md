@@ -154,7 +154,7 @@ You can reproduce the same results using the pre-trained models and the test dat
 
 - 🔗 [Download Trained RPN Model](https://drive.google.com/file/d/1iPqb3YTeNqzJoRugJ3dnoX12j--7fUQL/view?usp=drive_link)
 - 🔗 [Download Trained FPR Model](https://drive.google.com/file/d/17LWiKsqqY1yS7Lt-3-oSTMNOY6rwHXpk/view?usp=drive_link)
-- 🔗 [Download `datatest.pkl`](https://drive.google.com/file/d/17f-cPiNp7siLVVqyHkzZ8FMdZYfvR_yn/view?usp=drive_link)
+- 🔗 [Download Test Data](https://drive.google.com/file/d/17f-cPiNp7siLVVqyHkzZ8FMdZYfvR_yn/view?usp=drive_link)
   
 
 
